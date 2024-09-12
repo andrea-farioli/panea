@@ -825,7 +825,7 @@
   }
   /* Club */
   .club {
-    height: 200vh;
+    height: 250vh;
     width: 100vw;
     position: relative;
     top: 10vh;
@@ -844,8 +844,8 @@
   .p-barbara {
     width: 90%;
     text-align: center;
-    font-size: 120%;
-    line-height: 120%;
+    font-size: 125%;
+    line-height: 150%;
     color: rgb(40, 40, 40);
   }
   .img-noemi {
@@ -856,8 +856,8 @@
   .p-noemi {
     width: 90%;
     text-align: center;
-    font-size: 120%;
-    line-height: 120%;
+    font-size: 125%;
+    line-height: 150%;
     color: rgb(40, 40, 40);
   }
   /* Gallery */
@@ -890,7 +890,7 @@
   .abstractsand {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
   .castle {
     height: 100%;
@@ -910,7 +910,7 @@
   .abstractspace {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
   .boodokan {
     height: 100%;
