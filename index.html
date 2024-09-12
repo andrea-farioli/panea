@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panea - Our Painting Club</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Artifika&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <img src="./img/logo.png" alt="An image displaying the club logo" />
+      <a href="#home" class="nav-home">Home</a>
+      <a href="#art" class="nav-art">Art</a>
+      <a href="#club" class="nav-club">Club</a>
+      <a href="#gallery" class="nav-gallery">Gallery</a>
+      <a href="#join" class="nav-join">Join</a>
+    </nav>
+    <header id="home">
+      <img
+        src="./img/banner.jpg"
+        alt="An image displaying some painted hands"
+      />
+      <h1>PANEA <br />Our Painting Club</h1>
+    </header>
+    <main>
+      <section id="art" class="art">
+        <div class="art-box">
+          <p>
+            The art of painting is the practice of applying pigment to a
+            surface, like canvas, paper or walls, to create visual compositions
+            encompassing a wide range of styles, techniques and mediums, from
+            oils and acrylics to watercolors and digital tools.
+          </p>
+        </div>
+      </section>
+      <section id="club" class="club">
+        <p class="p-barbara">
+          At the heart of our community is a shared passion for painting and
+          creativity. <br />Whether you're a seasoned artist or just beginning
+          your artistic journey, our club is a place where anyone with an
+          interest in painting can come together to learn, create, and grow.
+        </p>
+        <img
+          class="img-barbara"
+          src="./img/barbara.jpg"
+          alt="An image displaying a member of the club."
+        />
+        <p class="p-noemi">
+          We believe that art is for everyone, and our goal is to foster a
+          welcoming, friendly environment where members feel inspired to express
+          themselves in the magic craft of painting.
+        </p>
+        <img
+          class="img-noemi"
+          src="./img/noemi.jpg"
+          alt="An image displaying a member of the club."
+        />
+      </section>
+      <section id="gallery" class="gallery">
+        <img
+          class="peaceflag"
+          src="/img/peaceflag.jpg"
+          alt="An image displaying a painting workart."
+        />
+        <img
+          class="rosedoor"
+          src="/img/rosedoor.jpg"
+          alt="An image displaying a painting workart."
+        />
+        <img
+          class="foglie"
+          src="/img/foglie.jpg"
+          alt="An image displaying a painting workart."
+        />
+
+        <img
+          class="abstractsand"
+          src="/img/abstractsand.jpg"
+          alt="An image displaying a painting workart."
+        />
+
+        <img
+          class="birds"
+          src="/img/birds.jpg"
+          alt="An image displaying a painting workart."
+        />
+        <img
+          class="castle"
+          src="/img/castle.jpg"
+          alt="An image displaying a painting workart."
+        />
+        <img
+          class="abstractfalls"
+          src="/img/abstractfalls.jpg"
+          alt="An image displaying a painting workart."
+        />
+        <img
+          class="abstractspace"
+          src="/img/abstractspace.jpg"
+          alt="An image displaying a painting workart."
+        />
+        <img
+          class="boodokan"
+          src="/img/boodokan.jpg"
+          alt="An image displaying a painting workart."
+        />
+      </section>
+      <section id="join" class="join">
+        <div class="join-box">
+          <p>
+            Let's paint the world with creativity, <br />
+            one brushstroke at a time.
+            <br />
+            Join us!
+          </p>
+          <form action="/submit-form" method="post">
+            <label for="first-name">First Name*</label>
+            <input
+              type="text"
+              id="first-name"
+              name="first-name"
+              required
+              placeholder="e.g. Robert"
+            />
+            <label>Last name*</label>
+            <input
+              type="text"
+              id="last-name"
+              name="last-name"
+              required
+              placeholder="e.g. Jackson"
+            />
+            <label>Phone</label>
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              placeholder="e.g. 33960058153"
+            />
+            <label>Email*</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="e.g. robert.jackson@email.me"
+            />
+            <label>Message*</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+              placeholder="e.g. Hello there, I'd really like to know more about your charmful community..."
+            ></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h6 class="istitutional-data">
+        PANEA Painting Club <br />
+        3238 San Mateo Blvd NE, Albuquerque, NM 871170, USA <br />
+        email:<a href="mailto:info@panea.org"> info@panea.org</a><br />
+        phone: (505) 881-6200
+      </h6>
+      <h6 class="use-data">
+        <a href="https://github.com/andrea-farioli" target="_blank"
+          >Terms of Use </a
+        >|
+        <a href="https://github.com/andrea-farioli" target="_blank"
+          >Privacy Policy </a
+        >|
+        <a href="https://github.com/andrea-farioli" target="_blank"
+          >Cookies Policy</a
+        >
+      </h6>
+      <h6 class="webmaster-data">
+        © 2024
+        <a href="https://github.com/andrea-farioli" target="_blank"
+          >Andrea Farioli</a
+        ><br />All rights reserved.
+      </h6>
+    </footer>
+  </body>
+</html>
