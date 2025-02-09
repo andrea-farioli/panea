@@ -5,7 +5,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    font-size: 80px;
+    font-size: 100px;
     color: white;
     text-shadow: black 2px 2px;
     letter-spacing: 5px;
@@ -19,7 +19,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    font-size: 45px;
+    font-size: 50px;
     color: white;
     text-shadow: black 1px 1px;
   }
@@ -48,8 +48,19 @@
     font-size: 17px;
     color: black;
   }
+  #home {
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
+  #art {
+    background-image: url(./img/set2.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
   #club {
     background-color: rgb(255, 236, 239);
+    height: 200vh;
   }
   #gallery {
     background-color: black;
@@ -63,6 +74,154 @@
 }
 /* Breakpoint: Extra large */
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .artifika {
+    font-family: "Artifika";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 90px;
+    color: white;
+    text-shadow: black 2px 2px;
+    letter-spacing: 5px;
+  }
+  .artifika-nav {
+    font-family: "Artifika";
+    font-style: normal;
+  }
+  .artifika-art {
+    font-family: "Artifika";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 45px;
+    color: white;
+    text-shadow: black 1px 1px;
+  }
+  .artifika-club {
+    font-family: "Artifika";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 35px;
+    color: rgb(20, 20, 20);
+  }
+  .artifika-join {
+    font-family: "Artifika";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 40px;
+    color: white;
+    text-shadow: black 1px 1px;
+  }
+  .artifika-footer {
+    font-family: "Artifika";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 17px;
+    color: black;
+  }
+  #home {
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
+  #art {
+    background-image: url(./img/set2.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
+  #club {
+    background-color: rgb(255, 236, 239);
+    height: 200vh;
+  }
+  #gallery {
+    background-color: black;
+  }
+  #join-div-small {
+    display: none;
+  }
+  footer {
+    background-color: rgb(255, 236, 239);
+  }
+}
+/* Breakpoint: Large */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .artifika {
+    font-family: "Artifika";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 80px;
+    color: white;
+    text-shadow: black 2px 2px;
+    letter-spacing: 5px;
+  }
+  .artifika-nav {
+    font-family: "Artifika";
+    font-style: normal;
+  }
+  .artifika-art {
+    font-family: "Artifika";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 40px;
+    color: white;
+    text-shadow: black 1px 1px;
+  }
+  .artifika-club {
+    font-family: "Artifika";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 35px;
+    color: rgb(20, 20, 20);
+  }
+  .artifika-join {
+    font-family: "Artifika";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 35px;
+    color: white;
+    text-shadow: black 1px 1px;
+  }
+  .artifika-footer {
+    font-family: "Artifika";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 17px;
+    color: black;
+  }
+  #home {
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
+  #art {
+    background-image: url(./img/set2.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
+  #club {
+    background-color: rgb(255, 236, 239);
+    height: 200vh;
+  }
+  #gallery {
+    background-color: black;
+  }
+  #join-div-small {
+    display: none;
+  }
+  footer {
+    background-color: rgb(255, 236, 239);
+  }
+}
+/* Breakpoint: Medium */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .artifika {
     font-family: "Artifika";
     font-style: normal;
@@ -82,142 +241,16 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    font-size: 40px;
-    color: white;
-    text-shadow: black 1px 1px;
-  }
-  .artifika-club {
-    font-family: "Artifika";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    font-size: 33px;
-    color: rgb(20, 20, 20);
-  }
-  .artifika-join {
-    font-family: "Artifika";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    font-size: 40px;
-    color: white;
-    text-shadow: black 1px 1px;
-  }
-  .artifika-footer {
-    font-family: "Artifika";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    font-size: 17px;
-    color: black;
-  }
-  #club {
-    background-color: rgb(255, 236, 239);
-  }
-  #gallery {
-    background-color: black;
-  }
-  #join-div-small {
-    display: none;
-  }
-  footer {
-    background-color: rgb(255, 236, 239);
-  }
-}
-/* Breakpoint: Large */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .artifika {
-    font-family: "Artifika";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    font-size: 60px;
-    color: white;
-    text-shadow: black 2px 2px;
-    letter-spacing: 5px;
-  }
-  .artifika-nav {
-    font-family: "Artifika";
-    font-style: normal;
-  }
-  .artifika-art {
-    font-family: "Artifika";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
     font-size: 35px;
     color: white;
     text-shadow: black 1px 1px;
   }
   .artifika-club {
-    font-family: "Artifika";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    font-size: 28px;
-    color: rgb(20, 20, 20);
-  }
-  .artifika-join {
-    font-family: "Artifika";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    font-size: 35px;
-    color: white;
-    text-shadow: black 1px 1px;
-  }
-  .artifika-footer {
-    font-family: "Artifika";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    font-size: 17px;
-    color: black;
-  }
-  #club {
-    background-color: rgb(255, 236, 239);
-  }
-  #gallery {
-    background-color: black;
-  }
-  #join-div-small {
-    display: none;
-  }
-  footer {
-    background-color: rgb(255, 236, 239);
-  }
-}
-/* Breakpoint: Medium */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .artifika {
-    font-family: "Artifika";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    font-size: 50px;
-    color: white;
-    text-shadow: black 2px 2px;
-    letter-spacing: 5px;
-  }
-  .artifika-nav {
-    font-family: "Artifika";
-    font-style: normal;
-  }
-  .artifika-art {
     font-family: "Artifika";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
     font-size: 30px;
-    color: white;
-    text-shadow: black 1px 1px;
-  }
-  .artifika-club {
-    font-family: "Artifika";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    font-size: 24px;
     color: rgb(20, 20, 20);
   }
   .artifika-join {
@@ -237,8 +270,19 @@
     font-size: 17px;
     color: black;
   }
+  #home {
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
+  #art {
+    background-image: url(./img/set2.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
   #club {
     background-color: rgb(255, 236, 239);
+    height: 200vh;
   }
   #gallery {
     background-color: black;
@@ -257,7 +301,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    font-size: 40px;
+    font-size: 60px;
     color: white;
     text-shadow: black 2px 2px;
   }
@@ -270,7 +314,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    font-size: 21px;
+    font-size: 30px;
     color: white;
     text-shadow: black 1px 1px;
   }
@@ -279,7 +323,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    font-size: 17px;
+    font-size: 25px;
     color: rgb(20, 20, 20);
   }
   .artifika-join {
@@ -299,8 +343,19 @@
     font-size: 17px;
     color: black;
   }
+  #home {
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
+  #art {
+    background-image: url(./img/set2.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
   #club {
     background-color: rgb(255, 236, 239);
+    height: 200vh;
   }
   #gallery {
     background-color: black;
@@ -325,7 +380,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    font-size: 30px;
+    font-size: 50px;
     color: white;
     text-shadow: black 2px 2px;
   }
@@ -338,7 +393,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    font-size: 15px;
+    font-size: 25px;
     color: white;
     text-shadow: black 1px 1px;
     overflow: hidden;
@@ -348,7 +403,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    font-size: 11px;
+    font-size: 17px;
     color: rgb(20, 20, 20);
   }
   .artifika-join {
@@ -368,8 +423,19 @@
     font-size: 11px;
     color: black;
   }
+  #home {
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
+  #art {
+    background-image: url(./img/set2.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
   #club {
     background-color: rgb(255, 236, 239);
+    height: 200vh;
   }
   #gallery {
     background-color: black;
@@ -378,10 +444,10 @@
     display: none;
   }
   #join-div-small {
-    height: 100%;
     position: relative;
     background-image: url("./img/set1.jpg");
     background-size: cover;
+    height: 100vh;
   }
   footer {
     background-color: rgb(255, 236, 239);
