@@ -1,5 +1,7 @@
 # Panea
 
+## What
+
 Panea is a simple showcase website for an imaginary painting club that aims to share their art with the world.
 
 ## How
